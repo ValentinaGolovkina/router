@@ -1,0 +1,14 @@
+#CAMEL PROPERTIES
+camel:
+  component:
+    kafka:
+      brokers: rusagro-zhir.tengry.com:9092, rusagro-zhir.tengry.com:9093, rusagro-zhir.tengry.com:9094
+      auto-offset-reset: earliest
+      client-id: clientValentina
+      groupId: groupValentina
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.memorynotfound: DEBUG
